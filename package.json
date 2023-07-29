@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "react-scripts": "^5.0.1"
+  },
+  "name": "road-tripper",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carternadain/Road-tripper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carternadain/Road-tripper/issues"
+  },
+  "homepage": "https://github.com/carternadain/Road-tripper#readme"
+}
