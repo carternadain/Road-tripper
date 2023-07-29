@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-function App() {
+const App = () => {
+  const [nationalParks, setNationalParks] = useState([]);
+
+  useEffect(() => {
+    // Make a GET request to the backend API endpoint for national parks
+    axios.get('/api/nationalparks')
+      .then((response) => {
+        setNationalParks(response.data);
+      })
+      .catch((error) => {
+        console.error('Error fetching national parks:', error);
+      });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>National Parks</h1>
+      <ul>
+        {nationalParks.map((park) => (
+          <li key={park._id}>{park.name}</li>
+        ))}
+      </ul>
     </div>
   );
-}
+};
 
 export default App;
