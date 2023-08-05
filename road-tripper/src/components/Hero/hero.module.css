@@ -3,10 +3,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main-image {
   width: 100%; /* Set the image width to 100% of the container width */
   height: auto; /* Automatically adjust the image height to maintain aspect ratio */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px; /* Adjust the value to position the button vertically */
+  width: 100%; /* Make the button container span the full width */
+}
+
+/* Style the Start Tripping button */
+.start-tripping-button {
+  padding: 12px 20px;
+  background-color: #f57c00;
+  color:black;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }

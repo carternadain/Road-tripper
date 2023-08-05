@@ -4,11 +4,11 @@ import styles from './Navbar.module.css'; // Import the CSS module
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg ">
       {/* Left side */}
-      <div className="navbar-brand">
+      <div className={styles['navbar-brand']}>
         {/* Orange Circle */}
-        <div className="orange-circle">
+        <div className={styles['orange-circle']}>
           <span>My</span>
           <span>Own</span>
           <span>Journey</span>
@@ -27,13 +27,23 @@ const Navbar = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul className="navbar-nav">
+      <div className={`collapse navbar-collapse justify-content-end ${styles['navbar-nav']}`} id="navbarNavDropdown">
+        <ul className={`navbar-nav ${styles['menu-items']}`}>
           {/* Menu items */}
         </ul>
+        <div className={styles['login-signup-links']}>
+          <a href="/login" className={styles['nav-link']}>
+            Log In
+          </a>
+          <span className={styles['link-separator']}>&nbsp;|&nbsp;</span>
+          <a href="/signup" className={styles['nav-link']}>
+            Sign Up
+          </a>
+        </div>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
+
