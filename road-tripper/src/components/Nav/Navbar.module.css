@@ -1,0 +1,15 @@
+.orange-circle {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 15px auto;
+  }

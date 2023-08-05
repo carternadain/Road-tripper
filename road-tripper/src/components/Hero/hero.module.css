@@ -1,0 +1,12 @@
+/* hero.module.css */
+.background-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-image {
+  width: 100%; /* Set the image width to 100% of the container width */
+  height: auto; /* Automatically adjust the image height to maintain aspect ratio */
+}

@@ -1,15 +1,13 @@
-.orange-circle {
-  position: absolute;
-  top: 50%;
-  left: 2rem;
-  transform: translateY(-50%);
-  width: 80px;
-  height: 80px;
-  background-color: orange;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  font-weight: bold;
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+/* Center content */
+.center-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
