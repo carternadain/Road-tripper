@@ -11,8 +11,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Trip />
-      {/* <Map /> */}
-      {/* <Footer /> */}
+      <Map />
+      <Footer />
     </div>
   );
 };

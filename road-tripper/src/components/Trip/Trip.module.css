@@ -1,0 +1,31 @@
+.form-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Adjust the form size and center it under the label */
+.form-group input {
+  width: 200px; /* Adjust the width as needed */
+  text-align: center; /* Center the text inside the input */
+  margin: 0 auto; /* Center the input horizontally */
+  display: block; /* Make the input a block element to apply margin properly */
+}
+.trip-start-button {
+  padding: 10px 20px;
+  background-color: #f57c00;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.start-button {
+  color: black;
+  font-size: 16px;
+}

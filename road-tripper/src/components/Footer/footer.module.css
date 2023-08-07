@@ -1,0 +1,26 @@
+/* footer.module.css */
+.footer-container {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    /* Add any other footer container styles you need */
+  }
+  
+
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+  }
+  
+  .footer-links a:hover {
+    color: #f57c00;
+  }
+  
+  .footer-copyright {
+    margin-top: 10px;
+    color: #888;
+    font-size: 14px;
+    /* Add any other styles for the copyright information */
+  }
+  
