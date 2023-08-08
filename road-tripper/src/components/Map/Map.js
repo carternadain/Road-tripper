@@ -8,7 +8,7 @@ const Map = ({ destination }) => {
   useEffect(() => {
     // Load the Google Maps API script dynamically
     const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places`;
+    script.src = `https://maps.googleapis.com/maps/api/AIzaSyDHvUfktBNhORjt0tl6SXmDPe47CePDp9A`;
     script.onload = initMap;
     document.head.appendChild(script);
 
