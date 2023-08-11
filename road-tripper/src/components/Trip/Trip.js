@@ -1,6 +1,6 @@
 // Trip.js
 import React, { useState } from 'react';
-import Map from '/Users/carternadain/Desktop/Road-tripper/road-tripper/src/components/Map/Map.js'; // Import the Map component
+// import Map from '/Users/carternadain/Desktop/Road-tripper/road-tripper/src/components/Map/Map.js'; // Import the Map component
 import styles from './Trip.module.css'; // Import the CSS module
 
 const Trip = () => {
@@ -32,7 +32,7 @@ const Trip = () => {
       <button className={styles['trip-start-button']}>Start</button>
 
       {/* Render the Map component and pass the destination prop */}
-      <Map destination={destination} />
+      {/* <Map destination={destination} /> */}
     </div>
   );
 };

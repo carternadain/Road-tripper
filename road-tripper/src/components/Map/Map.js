@@ -43,3 +43,4 @@ const Map = ({ destination }) => {
 };
 
 export default Map;
+
