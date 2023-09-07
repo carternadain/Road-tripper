@@ -3,15 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+ 
   
 }
 
 .main-image {
   width: 117%; 
-  height: 100%; 
+
 }
 
 .button-container {
