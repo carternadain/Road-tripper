@@ -4,11 +4,18 @@ import styles from './hero.module.css'; // Import the CSS module
 const Hero = () => {
   return (
     <div className={styles['background-image']}>
-      <img className={styles['main-image']} src="/images/trip-planner.png" alt="Trip Planner" />
-      
-      {/* Button Container */}
-      <div className={styles['button-container']}>
-        <button className={styles['start-tripping-button']}>Start Tripping</button>
+ 
+      <div className={styles['image-container']} style={{ backgroundImage: `url('your-image-url.jpg')` }}>
+        {/* Slogan */}
+        <h1 className={styles['slogan']}>
+          Turn your road trip 
+          <br></br>
+          into an adventure.
+        </h1>
+        <h1 className={styles['slogan']}>
+          Find amazing stops along your route.
+        </h1>
+        
       </div>
     </div>
   );

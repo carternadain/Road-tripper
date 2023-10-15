@@ -7,12 +7,8 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg ">
       {/* Left side */}
       <div className={styles['navbar-brand']}>
-        {/* Orange Circle */}
-        <div className={styles['orange-circle']}>
-          <span>My</span>
-          <span>Own</span>
-          <span>Journey</span>
-        </div>
+   
+      <img className={styles['ab']} src="/images/ab.png" alt="ab logo" />
       </div>
 
       {/* Right side */}

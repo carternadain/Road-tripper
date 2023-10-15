@@ -6,30 +6,24 @@
 
 .form-group {
   margin-bottom: 15px;
+  display: inline-block; /* Add this to make the form groups inline */
+  margin-right: 20px; /* Add spacing between the input groups */
 }
 
 /* Adjust the form size and center it under the label */
 .form-group input {
-  width: 200px; 
+  width: 200px;
   text-align: center;
-  margin: 0 auto; 
-  display: block; 
-  
 }
+
 .trip-start-button {
   padding: 10px 20px;
-  background-color: #f57c00;
+  background-color: #046909;
   color: black;
   font-size: 16px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  
 }
 
 
-.start-button {
-  color: black;
-  font-size: 16px;
- 
-}
