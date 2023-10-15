@@ -1,5 +1,13 @@
 .slogan {
-  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
   margin-bottom: 20px;
+  text-align: center; /* Center text within each h1 element */
+  color: rgb(92, 89, 89);
+}
+
+.slogan2 {
+ font-size: 13px;
+
   text-align: center; /* Center text within each h1 element */
 }

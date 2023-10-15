@@ -8,7 +8,7 @@ const Navbar = () => {
       {/* Left side */}
       <div className={styles['navbar-brand']}>
    
-      <img className={styles['ab']} src="/images/ab.png" alt="ab logo" />
+      <img className={styles['ab']} src="/images/ab2.png" alt="ab logo" />
       </div>
 
       {/* Right side */}

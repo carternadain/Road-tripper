@@ -12,9 +12,9 @@ const Hero = () => {
           <br></br>
           into an adventure.
         </h1>
-        <h1 className={styles['slogan']}>
+        <h4 className={styles['slogan2']}>
           Find amazing stops along your route.
-        </h1>
+        </h4>
         
       </div>
     </div>
