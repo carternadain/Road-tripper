@@ -22,7 +22,7 @@ userRouter.post('/login', async (req, res) => {
     const { email, password } = req.body;
     const user = await User.findOne({ email });
 
-    if (!user || user.password !== password) {
+    if (!user || !(await user.comparePassword(password))) {
       res.status(401).json({ error: 'Authentication failed' });
     } else {
       res.status(200).json({ message: 'Authentication successful' });
@@ -32,5 +32,6 @@ userRouter.post('/login', async (req, res) => {
     res.status(500).json({ error: 'Authentication failed' });
   }
 });
+
 
 module.exports = userRouter;
