@@ -8,9 +8,8 @@ const Hero = () => {
       <div className={styles['image-container']} style={{ backgroundImage: `url('your-image-url.jpg')` }}>
         {/* Slogan */}
         <h1 className={styles['slogan']}>
-          Turn your road trip 
-            <div className={styles['car-side']}>
-            <FaCarSide size={24} color="black" />    </div>
+          Turn your road trip  <FaCarSide size={24} color="black" /> 
+           
           <br></br>
           into an adventure    <div className={styles['tent-icon']}>
           <BsFillTreeFill size={24} color="green" /> {/* Customize size and color */}
