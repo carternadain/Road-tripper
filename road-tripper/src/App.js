@@ -4,6 +4,8 @@ import Hero from './components/Hero/Hero';
 import Trip from './components/Trip/Trip';
 import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
+import LoginForm from './components/LoginForm'; 
+import SignupForm from './components/SignupForm'; 
 
 const App = () => {
   const [attractions, setAttractions] = useState([]); // State to store attractions
@@ -24,6 +26,8 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <LoginForm /> 
+      <SignupForm /> 
       <Trip onSearch={searchAttractions} /> 
       <Map attractions={attractions} /> 
       <Footer />
