@@ -1,6 +1,9 @@
 // Navbar.js
 import React from 'react';
-import styles from './Navbar.module.css'; // Import the CSS module
+import styles from './Navbar.module.css'; // 
+import LoginForm from '..//Login-Signup/LoginForm'; // 
+import SignupForm from '..//Login-Signup/SignupForm';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (

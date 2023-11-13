@@ -11,7 +11,10 @@
     "mongoose": "^7.4.1",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "^5.0.1"
   },
   "name": "road-tripper",
@@ -33,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/carternadain/Road-tripper/issues"
   },
-  "homepage": "https://github.com/carternadain/Road-tripper#readme"
+  "homepage": "https://github.com/carternadain/Road-tripper#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
