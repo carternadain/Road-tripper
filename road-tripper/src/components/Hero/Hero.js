@@ -2,6 +2,7 @@ import React from 'react';
 import { BsFillTreeFill } from "react-icons/bs";
 import styles from './hero.module.css'; // Import the CSS module
 import { FaCarSide } from "react-icons/fa";
+
 const Hero = () => {
   return (
     <div className={styles['background-image']}>

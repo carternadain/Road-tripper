@@ -22,7 +22,7 @@ const App = () => {
   };
 
   return (
- <div>
+   <div>
    <Navbar />
    <Hero />
    <LoginForm/>
